@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Dino-Juice-Calculator/sw.js', { scope: '/Dino-Juice-Calculator/' })})}
