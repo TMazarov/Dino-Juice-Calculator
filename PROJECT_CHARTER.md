@@ -1,5 +1,3 @@
-  CHARTER.md
-
 # Dino Juice Calc – Project Charter
 
 ## Core Vision
@@ -22,7 +20,7 @@ To create a minimalistic, functional, and visually stunning Progressive Web App 
 - **Framework:** React
 - **Language:** TypeScript
 - **UI Components:** shadcn/ui
-- **Theme:** Dark theme by default
+- **Theme:** Dark theme by default, with user toggle for light/dark mode
 - **Aesthetics:** Modern, futuristic, clean, and minimalistic
 
 ## Project Structure & Code Standards
@@ -53,4 +51,14 @@ To create a minimalistic, functional, and visually stunning Progressive Web App 
 2. Building the Application
 3. PWA Conversion & Asset Creation
 4. Deployment & Automation
+
+## Progress Update (as of current phase)
+- Core UI and calculation logic are implemented and functional.
+- Unit switching (Metric/Imperial) is complete and uses a modern toggle.
+- Theme toggling (dark/light) is implemented and persists user preference.
+- Validation and accessibility improvements are in place.
+- PWA setup is complete: manifest, service worker, and offline support are working.
+- Automated scripts for PWA icons and favicons from logo.png are implemented and tested.
+- Favicon and icon references in manifest and HTML are verified.
+- Next step: custom install prompt and final PWA polish.
 
