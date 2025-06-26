@@ -1,4 +1,3 @@
-import React from "react";
 import FuelCalculator from "@/components/FuelCalculator";
 import ThemeToggle from "@/components/ThemeToggle";
 import PWAInstallPrompt from "@/components/PWAInstallPrompt";
